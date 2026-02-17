@@ -30,17 +30,19 @@ export default defineConfig({
     excludeDeps: ['react'],
     outputs: [output({ dir: 'public/r', format: true })],
     items: [
-      ...Object.values(componentMetadata).map(component =>
-        defineComponent({
-          title: component.name,
-          description: component.description,
-          category: component.category,
-          categories: [component.category],
-          meta: component.meta,
-          variants: component.variants
-        })
-      )
-    ].flat()
+      {
+        name: 'placeholder',
+        title: 'Placeholder',
+        description: 'Placeholder component',
+        type: 'registry:component',
+        categories: ['Other'],
+        files: [
+          {
+            path: 'src/content/Other/placeholder.ts'
+          }
+        ]
+      }
+    ]
   }
 });
 
