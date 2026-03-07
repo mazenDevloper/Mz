@@ -1,7 +1,7 @@
 .liquid-glass.backdrop-blur-\[120px\].rounded-\[2\.5rem\].shadow-\[0_40px_100px_rgba\(0\,0\,0\,1\)\].transition-all.duration-700.cursor-pointer.overflow-hidden.relative.border.border-white\/10.w-44.h-20.p-0 {
     width: 18rem!important;
-    height: 3.5rem;
-    background: linear-gradient(45deg, black, transparent);
+    height: 3.5rem!important;
+    background: linear-gradient(45deg, black, transparent)!important;
 }
 
 .liquid-glass.backdrop-blur-\[120px\].rounded-\[2\.5rem\].shadow-\[0_40px_100px_rgba\(0\,0\,0\,1\)\].transition-all.duration-700.cursor-pointer.overflow-hidden.relative.border.border-white\/10.w-44.h-20.p-0 {}
@@ -10,9 +10,9 @@
 }
 
 .relative.w-full.h-full.flex.flex-col.items-center.justify-center.z-20 {
-    background: linear-gradient(-1deg, black, transparent);
+    background: linear-gradient(-1deg, black, transparent)!important;
 }
 
 .absolute.inset-0.bg-black\/5 {
-    background: linear-gradient(0deg, black 5%, transparent);
+    background: linear-gradient(0deg, black 5%, transparent)!important;
 }
